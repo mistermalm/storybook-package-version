@@ -16,10 +16,16 @@ const style = {
   'padding': '4px 12px',
 }
 
-export const Version = memo(function MyAddonSelector() {
-
-  const addonParameters = useParameter(ADDON_ID, { packageName: "package-name", version: '1.0.0' });
+export const Version = memo(function PackageVersion({ 
+  version, 
+  packageName 
+}: { 
+  version: string,
+  packageName: string 
+}) {
   return (
-    <p style={style} className={ADDON_ID} key={TOOL_ID}>{`${addonParameters.packageName}: ${addonParameters.version}`}</p>
+    <p style={style} className={ADDON_ID} key={TOOL_ID}>
+      {`${packageName}: ${version}`}
+    </p>
   );
 });
