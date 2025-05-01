@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-package-version",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "show package.json version in the storybook toolbar",
   "keywords": [
     "storybook-addons",
