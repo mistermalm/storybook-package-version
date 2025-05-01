@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "show package.json version in the storybook toolbar",
   "keywords": [
-    "storybook-addons", "package version", "version", "storybook-addons"
+    "storybook-addons",
+    "package version",
+    "version",
+    "storybook-addons"
   ],
   "repository": {
     "type": "git",
