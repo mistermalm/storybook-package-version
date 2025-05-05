@@ -1,19 +1,18 @@
 import React, { memo } from "react";
-import { useParameter } from "storybook/internal/manager-api";
 import { ADDON_ID, TOOL_ID } from "../constants";
 
 const style = {
-  'text-transform': 'unset',
-  'font-size': '14px',
-  'font-style': 'normal',
-  'font-weight': '400',
-  'line-height': '16px',
-  'letter-spacing': '-0.14px',
-  'margin-left': '16px',
-  'background-color': '#2058A8',
-  'color': '#ffffff',
-  'border-radius': '16px',
-  'padding': '4px 12px',
+  textTansform: 'unset',
+  fontSize: '14px',
+  fontStyle: 'normal',
+  fontWeight: '400',
+  lineHeight: '16px',
+  letterSpacing: '-0.14px',
+  marginLeft: '16px',
+  backgroundColor: '#2058A8',
+  color: '#ffffff',
+  borderRadius: '16px',
+  padding: '4px 12px',
 }
 
 export const Version = memo(function PackageVersion({ 
